@@ -1,0 +1,17 @@
+module.exports = {
+  title: "life log",
+  description: "life log.",
+  author: "Jinlee",
+  siteUrl: "https://laracools.github.io/jinlee.github.io/",
+  links: {
+    github: "https://github.com/devHudi",
+    linkedIn: "https://linkedin.com",
+    facebook: "https://www.facebook.com",
+    instagram: "https://www.instagram.com",
+    email: "mailto:jinkyu.lee@gmail.com",
+  },
+  utterances: {
+    repo: "laracools/jinlee.github.io",
+    type: "pathname",
+  },
+}
