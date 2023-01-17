@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "author": "jinlee",
   "bugs": {
-    "url": "https://github.com/laracools/jinlee.github.io/issues"
+    "url": "https://github.com/jinlee-m/jinlee.github.io/issues"
   },
   "dependencies": {
     "@fontsource/merriweather": "^4.5.14",
@@ -59,7 +59,7 @@
     "gh-pages": "^4.0.0",
     "prettier": "^2.8.3"
   },
-  "homepage": "https://laracools.github.io/jinlee.github.io/",
+  "homepage": "https://jinlee-m.github.io/jinlee.github.io/",
   "keywords": [
     "blog"
   ],
@@ -67,7 +67,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laracools/jinlee.github.io.git"
+    "url": "git+https://github.com/jinlee-m/jinlee.github.io.git"
   },
   "scripts": {
     "build": "gatsby build",

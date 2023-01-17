@@ -13,7 +13,7 @@ tags:
 series: "Life Tracker"
 ---
 
-## Title
+### Title
 
 "The Importance of Mental Health in the Workplace"
 
@@ -29,4 +29,5 @@ In recent years, mental health has become a growing concern in the workplace. Me
 4. Strategies for employers to support employee mental health.
 
 ### Conclusion
-Mental health is an important aspect of overall well-being and should be taken seriously in the workplace. Employers can play a vital role in prompting mental health and supporting employees who are dealing with mental health issues. By providing resources, creating a culture of openness, and prompting self-care, employers can improve the overall well-being of their employees.
+Mental health is an important aspect of overall well-being and should be taken seriously in the workplace. Employers can play a vital role in prompting mental health and supporting employees who are dealing with mental health issues.
+By providing resources, creating a culture of openness, and prompting self-care, employers can improve the overall well-being of their employees.

@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       © {title}, Built with Gatsby and{" "}
-      <a href="https://github.com/laracools/jinlee.github.io" target="blank">
+      <a href="https://github.com/jinlee-m/jinlee.github.io" target="blank">
         gatsby blog starter
       </a>{" "}
       theme.
