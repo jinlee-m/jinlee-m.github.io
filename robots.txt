@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://laracools.github.io/sitemap-index.xml
-Host: https://laracools.github.io
+Sitemap: https://jinlee-m.github.io/sitemap-index.xml
+Host: https://jinlee-m.github.io
