@@ -4,7 +4,7 @@ module.exports = {
   author: "Jinlee",
   siteUrl: "https://jinlee-m.github.io/jinlee.github.io/",
   links: {
-    github: "https://github.com/jinlee-m",
+    github: "https://github.com",
     linkedIn: "https://linkedin.com",
     facebook: "https://www.facebook.com",
     instagram: "https://www.instagram.com",
