@@ -10,8 +10,16 @@ tags:
 series: "CDISC 알아보기"
 ---
 
-# CRF 실행 <a name="CRF_Renditions"/>
-style-sheet가 ODM-xml 문서에서 브라우저의 CRF 페이지를 생성하는 방법에 대한 간단한 설명입니다.
+#### Table of Contents
+* [CRF Renditions](#CRF_Renditions)
+   * [CRF layout](#CRF_layout)
+   * [Design choices](#Design_choices)
+      * [SDTM Datasets and Variables](#SDTM_Datasets_and_Variables)
+   * [Parameters](#Parameters)
+   * [Creating PDF documents](#Creating_PDF_documents)
+
+# CRF Renditions <a name="CRF_Renditions"/>
+A short description of how the style sheet generates the CRF pages in the browser from the ODM-xml document.
 
 ## CRF layout <a name="CRF_layout"/>
 The main feature of the CRF layout presented here is to put the SDTM annotations in a column adjacent to each question line. This way the SDTM annotations are displayed at the proper location, without the need to move boxes of annotations around inside and on top of CRF elements. Even if this takes some space from the CRF Forms width, please notice that the [acrf](/examples/acrf.pdf) is a documentation of the SDTM annotations, while the [bcrf](/examples/bcrf.pdf) is the documentation of the CRF pages themselves. This split also allows space for more rich SDTM annotations.
