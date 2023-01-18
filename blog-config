@@ -2,7 +2,7 @@ module.exports = {
   title: "life log",
   description: "life log.",
   author: "Jinlee",
-  siteUrl: "https://jinlee-m.github.io/jinlee.github.io/",
+  siteUrl: "https://jinlee-m.github.io",
   links: {
     github: "https://github.com",
     linkedIn: "https://linkedin.com",
