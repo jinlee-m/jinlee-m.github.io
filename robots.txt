@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://jinlee-m.github.io/sitemap-index.xml
-Host: https://jinlee-m.github.io
+Sitemap: https://metatrial.io/sitemap-index.xml
+Host: https://metatrial.io
