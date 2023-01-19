@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of life log]]></title><description><![CDATA[life log.]]></description><link>https://jinlee-m.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 18 Jan 2023 23:54:58 GMT</lastBuildDate><item><title><![CDATA[🤔 CRF to SDTM]]></title><description><![CDATA[CRF 실행  style-sheet가 ODM-xml 문서에서 브라우저의 CRF 페이지를 생성하는 방법에 대한 간단한 설명입니다. CRF layout  여기에 제시된 CRF 레이아웃의 주요 기능은 각 질문 라인의 인접한 열에 SDTM…]]></description><link>https://jinlee-m.github.io/crftosdtm/</link><guid isPermaLink="false">https://jinlee-m.github.io/crftosdtm/</guid><pubDate>Wed, 18 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;CRF 실행 &lt;a name=&quot;CRF_Renditions&quot;/&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of life log]]></title><description><![CDATA[life log.]]></description><link>https://jinlee-m.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 19 Jan 2023 04:00:44 GMT</lastBuildDate><item><title><![CDATA[🤔 CRF to SDTM]]></title><description><![CDATA[CRF Renditions  style-sheet가 ODM-xml 문서에서 브라우저의 CRF 페이지를 생성하는 방법에 대한 간단한 설명입니다. CRF layout  여기에 제시된 CRF layout의 주요 기능은 각 질문 라인(Question line…]]></description><link>https://jinlee-m.github.io/crftosdtm/</link><guid isPermaLink="false">https://jinlee-m.github.io/crftosdtm/</guid><pubDate>Wed, 18 Jan 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;CRF Renditions &lt;a name=&quot;CRF_Renditions&quot;/&gt;&lt;/h2&gt;
 &lt;p&gt;style-sheet가 ODM-xml 문서에서 브라우저의 CRF 페이지를 생성하는 방법에 대한 간단한 설명입니다.&lt;/p&gt;
 &lt;h2&gt;CRF layout &lt;a name=&quot;CRF_layout&quot;/&gt;&lt;/h2&gt;
-&lt;p&gt;여기에 제시된 CRF 레이아웃의 주요 기능은 각 질문 라인의 인접한 열에 SDTM 주석을 배치하는 것입니다.
-이렇게 하면 주석 상자를 CRF 요소의 내부와 상단으로 이동할 필요 없이 SDTM 주석이 적절한 위치에 표시됩니다.
-이것이 CRF 양식 너비에서 약간의 공간을 차지하더라도
-&lt;a href=&quot;/examples/acrf.pdf&quot;&gt;acrf&lt;/a&gt;는 SDTM 주석의 문서이고 &lt;a href=&quot;/examples/bcrf.pdf&quot;&gt;bcrf&lt;/a&gt;는 CRF 페이지 자체의 문서입니다.
-이 분할은 또한 보다 풍부한 SDTM 주석을 위한 공간을 허용합니다.&lt;/p&gt;
+&lt;p&gt;여기에 제시된 CRF layout의 주요 기능은 각 질문 라인(Question line)의 인접한 열(Column)에 SDTM 주석(Annotated)을 배치하는 것입니다. 이렇게 하면 주석 상자(Annotated box)를 CRF 요소의 내부와 상단으로 이동할 필요 없이 SDTM 주석(Annotated)이 적절한 위치에 표시됩니다. 이것이 CRF 양식(Form) 너비에서 약간의 공간을 차지하더라도, &lt;a href=&quot;examples/acrf.pdf&quot;&gt;acrf&lt;/a&gt;는 SDTM 주석의 문서이고, &lt;a href=&quot;examples/bcrf.pdf&quot;&gt;bcrf&lt;/a&gt;는 CRF 페이지 자체의 문서입니다. 이 분할(divition)은 또한 보다 풍부한 SDTM 주석을 위한 공간을 허용합니다.&lt;/p&gt;
 &lt;p&gt;&lt;figure class=&apos;gatsby-resp-image-figure&apos; style=&apos;margin-bottom: 16px;&apos;&gt;
     &lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; &apos;&gt;
       &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/5ed606ab9d42f19baaa38238652bca4e/f0257/CRF.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
@@ -31,8 +27,11 @@
 &lt;li&gt;ItemDef/Alias[@Context=&apos;completionInstructions&apos;]/@Name&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;@SDSVarName&lt;/strong&gt; 속성으로 식별되는 SDTM 주석입니다. SDTM 주석 마커로 &lt;strong&gt;@Context=&apos;SDTM&apos;&lt;/strong&gt; 속성을 갖는 &lt;strong&gt;Alias/@Name&lt;/strong&gt; 속성에서 추가 정보가 추가됩니다. 각 문장은 &lt;code class=&quot;language-text&quot;&gt;&apos;. &apos;&lt;/code&gt;로 구분됩니다. SDTM 주석의 &apos;(마침표 공백)은 가독성을 위해 자체 행에 표시됩니다. SDTM 데이터 세트 이름은 &lt;strong&gt;ItemGroupDef/@Domain&lt;/strong&gt; 또는 &lt;strong&gt;ItemDef/@SDSVarName&lt;/strong&gt; 속성에서 추출됩니다. 여기서 후자는 마침표 &lt;code class=&quot;language-text&quot;&gt;dataset.variable&lt;/code&gt;로 구분된 2단계 이름일 수 있습니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;@SDSVarName&lt;/strong&gt; 속성으로 식별되는 SDTM 주석입니다.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;SDTM 주석 마커로 &lt;strong&gt;@Context=&apos;SDTM&apos;&lt;/strong&gt; 속성을 갖는 &lt;strong&gt;Alias/@Name&lt;/strong&gt; 속성에서 추가 정보가 추가됩니다. 각 문장은 &lt;code class=&quot;language-text&quot;&gt;&apos;. &apos;&lt;/code&gt;로 구분됩니다.&lt;br&gt;
+SDTM 주석의 &apos;(마침표 공백)은 가독성을 위해 자체 행에 표시됩니다.&lt;br&gt;
+SDTM 데이터 세트 이름은 &lt;strong&gt;ItemGroupDef/@Domain&lt;/strong&gt; 또는 &lt;strong&gt;ItemDef/@SDSVarName&lt;/strong&gt; 속성에서 추출됩니다. 여기서 후자는 마침표 &lt;code class=&quot;language-text&quot;&gt;dataset.variable&lt;/code&gt;로 구분된 2단계 이름일 수 있습니다.&lt;/p&gt;
 &lt;h2&gt;Design choices &lt;a name=&quot;Design_choices&quot;/&gt;&lt;/h2&gt;
 &lt;p&gt;ODM-XML 파일에 대한 모든 공급업체별 이름 공간 및 XML 부록은 무시됩니다.&lt;/p&gt;
 &lt;p&gt;ODM-XML 파일 XPATH의 특성과 관련하여 다음과 같은 가정이 사용됩니다.:&lt;/p&gt;
@@ -48,7 +47,7 @@
 &lt;tr&gt;
 &lt;td&gt;Form Title/Name&lt;/td&gt;
 &lt;td&gt;FormDef/Description/TranslatedText&lt;/td&gt;
-&lt;td&gt;As it appears on the CRF&lt;br/&gt;&lt;/td&gt;
+&lt;td&gt;As it appears on the CRF&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Section Title/Name&lt;/td&gt;
@@ -100,9 +99,17 @@
 &lt;li&gt;지침/메모는 더 작은 글꼴과 이탤릭체(&lt;em&gt;italics&lt;/em&gt;)로 작성됩니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;SDTM Datasets and Variables &lt;a name=&quot;SDTM_Datasets_and_Variables&quot;/&gt;&lt;/h3&gt;
-&lt;p&gt;ODM-XML에서 SDTM 주석에 대한 데이터 세트 이름 및 변수 이름을 캡처하는 방법에 대해 일부 논쟁이 있었습니다. 일부 ODM 편집/생성 시스템은 &lt;strong&gt;ItemGroupDef/@Domain&lt;/strong&gt; 속성을 사용하여 데이터 세트 이름을 보유하고 일부는 그렇지 않습니다. 대부분은 SDTM 변수 이름에 대한 &lt;strong&gt;ItemDef/@SDSVarName&lt;/strong&gt;에 동의하는 것 같습니다. 둘 다 지원하기로 선택했습니다. 이때 &lt;strong&gt;ItemGroupDef/@Domain&lt;/strong&gt;을 선택하지만 &lt;strong&gt;ItemDef/@SDSVarName&lt;/strong&gt;에서 2단계 이름을 사용하는 것이 좋습니다.&lt;/p&gt;
-&lt;p&gt;이에 대한 주된 이유는 &lt;strong&gt;@ItemGroupDef&lt;/strong&gt; 수준의 &lt;strong&gt;@Domain&lt;/strong&gt; 속성에 있는 데이터 세트 이름과 &lt;strong&gt;ItemDef&lt;/strong&gt; 수준의 &lt;strong&gt;SDSVarName&lt;/strong&gt; 속성에 있는 변수 이름을 가짐으로써 부과되는 CRF 레이아웃과 SDTM 주석 사이의 바인딩을 제거하기 때문입니다.테이블 형식의 데이터 세트/변수 구조를 모방하여 논리적으로 보일 수 있지만 실제로는 CRF 양식이 SDTM 데이터 세트 구조에 따라 설계되어야 한다는 지시 외에는 아무런 목적이 없습니다.실제 경험에 따르면 복잡한 양식(예: Adverse events)은 종종 서로 다른 SDTM 도메인(예: AE 및 SUPPAE)에 번갈아 주석을 달고 따라서 &lt;strong&gt;@ItemGroupDef&lt;/strong&gt; (sections)를 변경하여 도메인을 변경하도록 지시하고 SDTM 주석 목적만 제공합니다.&lt;/p&gt;
-&lt;p&gt;내 [interim] 솔루션은 &lt;strong&gt;SDSVarName&lt;/strong&gt;에 공통 SQL 스타일의 마침표(예: AE.AETERM)로 구분된 데이터 세트 이름과 변수 이름을 모두 포함하도록 하는 것입니다. 보다 우수하고 영구적인 솔루션은 &lt;a href=&quot;https://www.cdisc.org/&quot;&gt;CDISC&lt;/a&gt;가 &lt;strong&gt;@Domain&lt;/strong&gt; 속성을 ODM-XML 사양의 &lt;strong&gt;ItemDef&lt;/strong&gt; 레벨로 이동하도록 옹호하는 것입니다. 이렇게 하면 데이터 세트 이름이 변수 이름과 동일한 수준에서 지정되어 SDTM 주석 다음에 CRF 섹션을 구성할 필요가 없습니다. 이것은 ODM 파일에서 데이터 세트 이름의 중복 사양을 요구하지만 ODM 편집/생성 시스템은 SDTM 사양에서 이를 채울 수 있어야 합니다.&lt;/p&gt;
+&lt;p&gt;ODM-XML에서 SDTM 주석에 대한 데이터 세트 이름 및 변수 이름을 캡처하는 방법에 대해 일부 논쟁이 있었습니다.&lt;br&gt;
+일부 ODM 편집/생성 시스템은 &lt;strong&gt;ItemGroupDef/@Domain&lt;/strong&gt; 속성을 사용하여 데이터 세트 이름을 보유하고 일부는 그렇지 않습니다.&lt;br&gt;
+대부분은 SDTM 변수 이름에 대한 &lt;strong&gt;ItemDef/@SDSVarName&lt;/strong&gt;에 동의하는 것 같습니다. 둘 다 지원하기로 선택했습니다.&lt;br&gt;
+이 때 &lt;strong&gt;ItemGroupDef/@Domain&lt;/strong&gt;을 선택하지만 &lt;strong&gt;ItemDef/@SDSVarName&lt;/strong&gt;에서 2단계 이름을 사용하는 것이 좋습니다.&lt;/p&gt;
+&lt;p&gt;이에 대한 주된 이유는 &lt;strong&gt;@ItemGroupDef&lt;/strong&gt; 수준의 &lt;strong&gt;@Domain&lt;/strong&gt; 속성에 있는 데이터 세트 이름과 &lt;strong&gt;ItemDef&lt;/strong&gt; 수준의 &lt;strong&gt;SDSVarName&lt;/strong&gt; 속성에 있는 변수 이름을 가짐으로써 부과되는 CRF 레이아웃과 SDTM 주석 사이의 바인딩을 제거하기 때문입니다.&lt;br&gt;
+테이블 형식의 데이터 세트/변수 구조를 모방하여 논리적으로 보일 수 있지만 실제로는 CRF 양식이 SDTM 데이터 세트 구조에 따라 설계되어야 한다는 지시 외에는 아무런 목적이 없습니다.&lt;br&gt;
+실제 경험에 따르면 복잡한 양식(예: Adverse events)은 종종 서로 다른 SDTM 도메인(예: AE 및 SUPPAE)에 번갈아 주석을 달고 따라서 &lt;strong&gt;@ItemGroupDef&lt;/strong&gt; (sections)를 변경하여 도메인을 변경하도록 지시하고 SDTM 주석 목적만 제공합니다.&lt;/p&gt;
+&lt;p&gt;[interim] 솔루션은 &lt;strong&gt;SDSVarName&lt;/strong&gt;에 공통 SQL 스타일의 마침표(예: AE.AETERM)로 구분된 데이터 세트 이름과 변수 이름을 모두 포함하도록 하는 것입니다.&lt;br&gt;
+보다 우수하고 영구적인 솔루션은 &lt;a href=&quot;https://www.cdisc.org/&quot;&gt;CDISC&lt;/a&gt;가 &lt;strong&gt;@Domain&lt;/strong&gt; 속성을 ODM-XML 사양의 &lt;strong&gt;ItemDef&lt;/strong&gt; 레벨로 이동하도록 옹호하는 것입니다.&lt;br&gt;
+이렇게 하면 데이터 세트 이름이 변수 이름과 동일한 수준에서 지정되어 SDTM 주석 다음에 CRF 섹션을 구성할 필요가 없습니다.&lt;br&gt;
+이것은 ODM 파일에서 데이터 세트 이름의 중복 사양을 요구하지만 ODM 편집/생성 시스템은 SDTM 사양에서 이를 채울 수 있어야 합니다.&lt;/p&gt;
 &lt;h2&gt;Parameters &lt;a name=&quot;Parameters&quot;/&gt;&lt;/h2&gt;
 &lt;p&gt;Parameters to the &lt;code class=&quot;language-text&quot;&gt;crf_1_3_2.xsl&lt;/code&gt; file are documented in the table below&lt;/p&gt;
 &lt;table&gt;
@@ -166,7 +173,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2&gt;Creating PDF documents &lt;a name=&quot;Creating_PDF_documents&quot;/&gt;&lt;/h2&gt;
-&lt;p&gt;모든 브라우저에서 SDTM 주석이 달린 CRF 사양, 완전한 CRF book, &lt;a href=&quot;/examples/acrf.pdf&quot;&gt;acrf&lt;/a&gt; or &lt;a href=&quot;/examples/bcrf.pdf&quot;&gt;bcrf&lt;/a&gt; 제출 문서로 각각 디스크의 PDF 문서로 CRF 변환을 인쇄합니다.
+&lt;p&gt;모든 브라우저에서 SDTM 주석이 달린 CRF 사양, 완전한 CRF book, &lt;a href=&quot;/examples/acrf.pdf&quot;&gt;acrf&lt;/a&gt; or &lt;a href=&quot;/examples/bcrf.pdf&quot;&gt;bcrf&lt;/a&gt; 제출 문서로 각각 디스크의 PDF 문서로 CRF 변환을 인쇄합니다.&lt;br&gt;
 참고:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;온스크린 버튼은 PDF 파일로 인쇄하여 생성된 PDF 문서에는 포함되지 않습니다.&lt;/li&gt;
